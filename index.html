@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center;">
+    <h1>Employee Interests Survey Form</h1>
+    <form>
+        <label for="name">Enter Your Name: </label>
+        <input name="name" type="text" placeholder="enter your full name" required>
+        <br><br>
+        <label for="department">Enter Your Department: </label>
+        <input name="department" type="text" placeholder="Your Department" required>
+        <br><br>
+        <label for="about-yourself">Tell Us a Little About Yourself: </label>
+        <input name="about-yourself" style="width: 350px; height: 50px" type="text" required>
+        <br><br>
+        <label for="exercie">Do You Exercise at Home? </label>
+        <input name="exercise" type="radio" value="yes">Yes
+        <input name="exercise" type="radio" value="no">No
+        <br><br>
+        <label for="favorite-topics">How do you like to read about your favorite topics?</label>
+        <input name="favorite-topics" type="checkbox" value="books">Books
+        <input name="favorite-topics" type="checkbox" value="online-resources">Online Resources
+        <input name="favorite-topics" type="checkbox" value="phone-apps">Phone Apps
+        <input name="favorite-topics" type="checkbox" value="magazines">Magazines
+        <br><br>
+        <label for="movies">What Genre of Movies do you like?</label>
+        <select name="movies">
+            <option>Comedy</option>
+            <option>Horror</option>
+            <option>Romance</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit form</button>
+
+
+    </form>
+
+</body>
+</html>
